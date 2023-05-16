@@ -1,5 +1,4 @@
-const type = require('../models/TaskType.js');
-const bcrypt = require('bcrypt');
+const type = require('../models/taskType.js');
 
 class TaskTypeService {
 

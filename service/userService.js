@@ -2,7 +2,6 @@
 var dao = require('../accessDATA/DAO');
 const user = require('../models/Utilisateur.js');
 const bcrypt = require('bcrypt');
-// const { use } = require('../routes/user');
 
 class UserService {
 
@@ -60,7 +59,6 @@ class UserService {
     async getUsers() {
         let users;
         try {
-            // users = await dao.getUsers();
             users = await user.findAll({
                 where: {
                     status: 'Activé'

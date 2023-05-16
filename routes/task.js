@@ -18,6 +18,7 @@ router.get('/',
         }
     })
 
+// API pour recupérer les données d'une vue de bdd 
 router.get('/details',
     async (req, res) => {
         try {
