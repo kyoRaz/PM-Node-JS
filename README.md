@@ -10,3 +10,6 @@ pour debuter
 
  pour lancer le projet 
   npx nodemon app.js
+
+
+NB: lors d'insertion des données verifier bien qu'une fois les données insert sont en UTF8 
