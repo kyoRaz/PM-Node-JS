@@ -1,6 +1,6 @@
-const Task = require('../models/Task.js');
+const Task = require('../models/task.js');
 const TaskType = require('../models/taskType.js');
-const Utilisateur = require('../models/Utilisateur.js');
+const Utilisateur = require('../models/utilisateur.js');
 const DetailsTask = require('../models/detailsTask.js');
 
 

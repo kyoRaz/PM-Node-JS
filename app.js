@@ -16,15 +16,15 @@ app.use(morgan('dev'));
 // importation des routes 
 const usersRouter = require("./routes/user");
 const loginRouter = require("./routes/login");
-const TaskTypeRouter = require("./routes/taskType");
-const TaskRouter = require("./routes/task");
+const taskTypeRouter = require("./routes/taskType");
+const taskRouter = require("./routes/task");
 
 
 //Routage//
 app.use("/api/users", usersRouter);
 app.use("/api/auth", loginRouter);
-app.use("/api/taskType", TaskTypeRouter);
-app.use("/api/task", TaskRouter);
+app.use("/api/taskType", taskTypeRouter);
+app.use("/api/task", taskRouter);
 
 
 

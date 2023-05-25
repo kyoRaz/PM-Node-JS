@@ -1,7 +1,7 @@
 
-const Task = require('./Task');
-const TaskType = require('./TaskType');
-const Utilisateur = require('./Utilisateur');
+const Task = require('./task');
+const TaskType = require('./taskType');
+const Utilisateur = require('./utilisateur');
 
 Task.belongsTo(TaskType, { foreignKey: 'idtype', targetKey: 'id' });
 TaskType.hasMany(Task, { foreignKey: 'idtype' });

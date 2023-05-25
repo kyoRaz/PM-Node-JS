@@ -1,6 +1,6 @@
 
 var dao = require('../accessDATA/DAO');
-const user = require('../models/Utilisateur.js');
+const user = require('../models/utilisateur.js');
 const bcrypt = require('bcrypt');
 
 class UserService {
